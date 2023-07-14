@@ -1,0 +1,17 @@
+﻿<Window x:Class="dewanagan.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:dewanagan"
+        mc:Ignorable="d"
+        Title="dewanagan" Height="615" Width="540">
+    <Canvas x:Name="Mycanvas" Focusable="True" Background="Black" KeyDown="OneKeyDown" KeyUp="OneKeyUp">
+
+        <Rectangle x:Name="Player" Height="50" Width="60" Fill="Yellow" Canvas.Left="246" Canvas.Top="498"/>
+
+        <Label Name="scoreText" Content="Score: 0" FontSize="18" FontWeight="Bold" Foreground="White"/>
+        <Label Name="damageText" Content="Score: 0" FontSize="18" FontWeight="Bold" Foreground="White" RenderTransformOrigin="6.682,0.784" Canvas.Left="405" Canvas.Top="8" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+
+    </Canvas>
+</Window>
